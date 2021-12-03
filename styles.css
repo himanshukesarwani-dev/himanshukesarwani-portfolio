@@ -13,7 +13,9 @@ body {
 
 }
 
-
+p {
+    line-height: 2;
+}
 
 
 /* horizontal rule */
@@ -37,8 +39,6 @@ hr {
     max-width: 600px;
    
 }
-
-
 
 
 /* links  */
@@ -75,8 +75,6 @@ hr {
     display: inline;
     padding: 0 0.5rem;
 }
-
-
 
 
 
@@ -158,4 +156,10 @@ hr {
 
 .footer ul {
     padding-inline-start: 0;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+
 }
