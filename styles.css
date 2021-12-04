@@ -5,8 +5,13 @@
     --primary-color: #4F46E5;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
+    --light-gray: #F3F4F6;
+    --gray-color: #D1D5DB;
     
 }
+
+/* Tag Selector */
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -17,11 +22,29 @@ p {
     line-height: 2;
 }
 
-
-/* horizontal rule */
-
 hr {
-    margin: 2rem 0rem;
+    margin: 2rem auto;
+    border: 0.5rem dotted var(--light-gray);
+    border-bottom: none;
+    width: 5%;
+   
+    
+}
+
+
+
+
+/* size and padding classes */
+
+
+.size-lg {
+
+    font-size: 40px;
+}
+
+
+.padding-md {
+    padding: 2rem 0;
 }
 
 
@@ -32,6 +55,7 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-center {
@@ -47,22 +71,21 @@ hr {
 .links {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    border-radius: 2rem;
     color: white;
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    
     color: white;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    
     border: 1px solid var(--primary-color);
 }
-
-
 
 
 /* lists */
@@ -83,7 +106,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -108,29 +131,34 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
     text-align: center;
+  
 }
 
 .hero .hero-heading-inverted {
-    color: var(--primary-color)
+    color:var(--primary-color);
 }
+
 
 
 /* section  */
 
 .section {
     padding: 2rem;
+    margin: 100px 100px;
+    text-align: center;
 }
 
 .section h1 {
@@ -139,7 +167,9 @@ hr {
 }
 
 .ow {
-    background-color: var(--off-white) ;
+    background-color: var(--off-white);
+    padding: 105px 0;
+    border-radius: 1rem;
 }
 
 
@@ -147,7 +177,7 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding:32px 16px 1px 16px;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -161,5 +191,12 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+    margin-bottom: 2rem;
 
+}
+
+
+.footer-credit {
+    padding-top: 1rem;
+    color:var(--gray-color);
 }
