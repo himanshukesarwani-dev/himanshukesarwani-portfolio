@@ -32,7 +32,13 @@ hr {
 }
 
 
+.class-marks {
+    color: var(--dark-gray);
+}
 
+.class-title {
+    color: var(--primary-color);
+}
 
 /* size and padding classes */
 
