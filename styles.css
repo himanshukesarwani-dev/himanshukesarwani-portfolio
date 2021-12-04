@@ -50,9 +50,12 @@ hr {
 
 
 .padding-md {
-    padding: 2rem 0;
+    padding: 2rem 0 2rem 5rem;
 }
 
+.padding-sm {
+    padding: 2rem 0;
+}
 
 
 
